@@ -1,0 +1,133 @@
+<html>
+<head>
+	<title>Trivia | I am aware</title>
+
+	<!-- Firebase CDN -->
+  <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+  
+  <!-- AngularJS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+
+  <!-- AngularFire Library -->
+  <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+  
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Custom JS -->
+  <script type='text/javascript' src='../js/trivia.js'> </script>
+
+  <title>Facts | I am aware</title>
+</head>
+<body onload="">
+
+	<div id="wrap">
+		<!-- Header -->
+		<header class="row">
+			<br><div class="col-xs-2"></div>
+			<div class="logo col-xs-2">
+				<a href="../index.html"><img src="../images/SampleLogo2.png" alt="" /></a>
+			</div>
+			<div class="col-xs-2"></div>
+			<div class="tabs col-xs-4">
+				<ul class="nav nav-tabs">
+					<li><a href="facts.html"><font color="#484848" size="4">Facts</font></a></li>
+					<li class="active"><a href=""><font color="#484848" size="4">Trivia</font></a></li> <!--class="active"-->
+					<li><a href="contribute.html"><font color="#484848" size="4">Contribute</font></a></li>
+				</ul>
+			</div>
+		</header><br /><br />
+
+
+		<!-- Add body info here -->
+		<div class="col-xs-12">
+			<div class="col-xs-1"></div>
+			<div class="contributor-panel col-xs-9">
+			
+			
+			<div class="panel-left col-xs-12">
+
+					<div class="contribute col-xs-3">
+						<a href="http://www.wfp.org/"><img src="../images/wfp_logo.png" alt="World Food Programme Logo" id="current_image" /></a>  <!-- donate: https://give.wfp.org/en/?step=country -->
+					
+					<progress value="0" max="100" id="progress_1"></progress>
+				
+					
+					</div>
+					<div class="panel panel-default col-xs-9">
+
+						<div class="panel-heading">
+							<h4 class="panel-title-left" id="question"></h4>
+						</div>
+						
+						<form action="form_action.asp" id="selection_form">	
+<input type="radio" name="answer" id="radio_1" value="0"><label id="answer1"></label></input>
+<hr>
+<input type="radio" name="answer" id="radio_2" value="1"><label id="answer2"></label></input>
+<hr>
+<input type="radio" name="answer" id="radio_3" value="2"><label id="answer3"></label></input>
+<hr>
+<input type="radio" name="answer" id="radio_4" value="3"><label id="answer4"></label></input>
+<hr>
+
+
+							<div class="submit-button">
+								<button type="button" onclick="changeQuestion()" class="btn-success" id="submit_button">submit</button>
+								
+							</div>
+							</form>
+					
+					</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				
+</body>
+
+<!-- Footer -->
+<div class="footer col-xs-12">
+	<div class="share-buttons col-xs-3">
+		SHARE:
+		<!-- Facebook -->
+		<a href="https://www.facebook.com/iaaware" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+
+		<!-- Twitter -->
+		<a href="http://twitter.com/iaaware" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+
+		<!-- Google+ -->
+		<a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+	</div>  
+	<div class="col-xs-6"></div>
+	<div class="email-contact col-xs-3">Contact us: iaaware@gmail.com</div> 
+
+	<!-- Angular CDN -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+
+	<!-- Firebase CDN -->
+	<script src="http://cdn.firebase.com/js/client/1.0.6/firebase.js"></script>
+
+	<!-- AngularFire CDN -->
+	<script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
+	<!-- JQuary -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</html>
+
+<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>

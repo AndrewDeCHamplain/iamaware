@@ -1,0 +1,273 @@
+body {
+  color: #453524;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:100%; 
+  height:100%;
+}
+
+/**
+ * Header
+ */
+.logo {
+  text-align: left;
+}
+
+.logo img {
+  /*position: absolute;*/
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  max-height: 110px;
+  min-height: 60px;
+  min-width: 130px;
+  //margin-left: 10px;
+  //margin-top: 10px;
+}
+.nav {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  margin-top: 45px;
+  color: #484848;
+  text-align: center;
+  //border: 2px solid #B7B7B7;
+}
+.nav:hover {
+  //border: 2px solid #B7B7B7;
+  //background-color: #C8C8C8;
+  color: #52B947;
+  text-decoration: none;
+}
+.navtabs {
+  color: #484848;
+  background-color: #484848;
+}
+
+.panel-title-left{
+  text-align: left;
+}
+.panel-title-right{s
+  text-align: right;
+}
+.panel-heading a{
+    color: #000;
+    text-decoration: none;
+}
+
+.panel-heading a:hover 
+{
+     color:#52B947; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.panel-left .panel-right img {
+  /*position: absolute;*/
+  height: 100%;
+  width: 100%;
+  max-width: 160px;
+  max-height: 85px;
+  min-height: 60px;
+  min-width: 130px;
+}
+.contribute img {
+
+  width: 100%;
+  max-width: 140px;
+  background-size:cover;
+  background-position:center;
+}
+.donate-button {
+  padding-top: 5px;
+}
+/**
+ * wrap
+ */
+#wrap { 
+  min-height:100%;
+  padding-bottom: 40px;
+  height:auto !important;
+  height:100%;    
+  margin: 0 auto -50px;  /* Bottom value must = footer height */
+}
+
+/**
+ * sidebar-wraper
+ */
+
+ #wrapper {
+  padding-right: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  background-size:cover;
+  background-position:center;
+
+  margin-top: 125px;
+  margin-right: -250px;
+  right: 250px;
+  width: 200px;
+  background: #fff;
+  position: fixed;
+  height: 70%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+/**
+ * sidebar
+ */
+
+ .sidebar-nav {
+  position: absolute;
+  color: #ffffff;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #52B947;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand {
+  color: #000;
+}
+
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-right: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.inset {
+  padding: 20px;
+}
+
+@media (max-width:700px) {
+
+  #wrapper {
+    padding-right: 0;
+  }
+  #sidebar-wrapper {
+    right: 0;
+  }
+  #wrapper.active {
+    position: relative;
+    right: 250px;
+  }
+  #wrapper.active #sidebar-wrapper {
+    right: 250px;
+    width: 250px;
+    transition: all 0.4s ease 0s;
+  }
+  #menu-toggle {
+    display: inline-block;
+  }
+  .inset {
+    padding: 15px;
+  }
+}
+
+/**
+ * SlideShow
+ */
+s
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  max-height: 750px;
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+    max-height: 400px;
+
+}
+.carousel-caption {
+  width:700px;
+  height:100px;
+  margin:30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#000000;
+  border:1px solid black;
+  opacity:0.8;
+
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  //text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;  
+}
+/**
+ * Footer
+ */
+
+.footer {
+  border: 2px solid #52B947;
+  background-color: #52B947;
+  color: white;
+
+  width:100%; 
+  height:40px; 
+  position: fixed;
+  bottom:0;
+} 
+ 
+.share-buttons img {
+  width: 35px;
+  max-width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+.email-contact {
+  padding-top: 10px;
+}

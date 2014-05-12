@@ -1,0 +1,82 @@
+body {
+   background-image: url('../images/finalmap.jpg'); 
+   background-size: 100% 95%; 
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.locationText {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.worldmenu {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.countryColor {
+  position: absolute;
+  float: top;
+  float: left;
+  width: 100%;
+  height: 95%;
+  z-index: -1;
+}
+
+/**
+* Fact Display
+*/
+
+.total { 
+  position: absolute;  
+}
+
+.layer_1 {
+  position: relative;
+}
+
+.layer_1 p {
+  font-size: 14px;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  border: 0px solid green;
+  background: rgba(255,255,255,.4);
+  border-radius: 20px;
+}
+
+/**
+ * Footer
+ */
+
+.footer {
+  border: 2px solid #52B947;
+  background-color: #52B947;
+  color: white;
+
+  width:100%; 
+  height:40px; 
+  position: fixed;
+  bottom:0;
+} 
+ 
+.share-buttons img {
+  width: 35px;
+  max-width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+.email-contact {
+  padding-top: 10px;
+}

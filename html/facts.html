@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<!-- Firebase CDN -->
+	<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- AngularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+
+	<!-- AngularFire Library -->
+	<script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Custom stylesheet -->
+	<link rel="stylesheet" href="../css/facts.css" />
+
+	<!-- Custom JS -->
+	<script type='text/javascript' src='../js/facts.js'> </script>
+
+	<title>Facts | I am aware</title>
+</head>
+
+<body id="theBody" onload="myFunction2()">
+	<img class="countryColor" id="color" src="../images/blank.png" />
+	
+	<a href="../index.html" data-toggle="tooltip" title="Home"> 
+		<img class="arrow" src="../images/BackArrow.png" 
+		onmouseover="this.src='../images/BackArrowGreen.png'" 
+		onmouseout="this.src='../images/BackArrow.png'"
+		/> 
+	</a> 
+
+	<!-- Generated markup by the plugin -->
+	<div class="tooltip top">
+		<div class="tooltip-inner">
+			Home
+		</div>
+		<div class="tooltip-arrow"></div>
+	</div>
+	
+	<select class="worldmenu" id="dropdown" onchange="dropdownChange(this.value)">
+		<option value="0">World</option>
+		<option value="1">Canada</option>
+		<option value="2">USA</option>
+		<option value="3">Brazil</option>
+		<option value="4">Angola</option>
+		<option value="5">Ethiopia</option>
+		<option value="6">Rwanda</option>
+		<option value="7">Afghanistan</option>
+		<option value="8">Australia</option>
+		<option value="9">China</option>
+		<option value="10">India</option>
+		<option value="11">Mexico</option>
+		<option value="12">Egypt</option>
+		<option value="13">Russia</option>
+	</select>
+
+	<p class="locationText">See Facts For Only:</p>
+	
+	<div class="total" id="the_fact">
+		<div class="layer_1">
+			<strong> <p id="p_1"></p> </strong>
+		</div>
+	</div>
+</body>
+
+<!-- Footer -->
+<div class="footer col-xs-12">
+	<div class="share-buttons col-xs-3">
+		SHARE:
+		<!-- Facebook -->
+		<a href="https://www.facebook.com/iaaware" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+
+		<!-- Twitter -->
+		<a href="http://twitter.com/iaaware" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+
+		<!-- Google+ -->
+		<a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+	</div> 
+	<div class="col-xs-6"></div>
+	<div class="email-contact col-xs-3">Contact us: iaaware@gmail.com</div> 
+</div>
+
+</html>
